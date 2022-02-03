@@ -1,6 +1,6 @@
 ProductName,ProductCostPrice,ProductSalesTaxPersentage,Country
-product1,500,5,india 
+product1,500,5,
 product2,,12,england
-product3,0,9,russia
-product4,-5,8,
+product3,488,9,russia
+product4,6548,8,bhutan
 product5,570,7,nepal
