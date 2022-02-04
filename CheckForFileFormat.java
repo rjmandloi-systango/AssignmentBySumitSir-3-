@@ -1,7 +1,6 @@
 package modification;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
@@ -18,6 +17,7 @@ public class CheckForFileFormat {
 
 			System.out.println("given format is correct");
 			
+			reader.close();
 			return true;
 			
 		}
@@ -25,9 +25,12 @@ public class CheckForFileFormat {
 		System.out.println("file columns are not as expected");
 			System.out.println("please format the columns as follows");
 			System.out.println("ProductName  ,ProductCostPrice,ProductSalesTax-Persentage,Country");
+			reader.close();
 			return false;
 		}
 		
+		
 	}
+	
 
 }

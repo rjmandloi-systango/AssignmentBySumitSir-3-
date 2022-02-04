@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class index {
+public class Index {
 	public static void main(String[] args) throws IOException {
 		ReadPropertiesFile read = new ReadPropertiesFile();
 	//	System.out.println(read.checkExistenceOfCsv());
